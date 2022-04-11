@@ -1,9 +1,9 @@
 # JS_TIPS-TRICKS
 none.
 
-## uninstall ndoe_module on windows
+## uninstall ndoe_module on windows for npm v5
 ```
-rmdir /S /Q node_modules
+npx rimraf ./**/node_modules
 ```
 
 ## uninstall ndoe_module on linux
